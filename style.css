@@ -373,13 +373,6 @@ a {
   cursor: pointer;
 }
 
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  background-color: var(--bg-color);
-  color: rgba(255, 255, 255, 0.9);
-}
 
 .social-Link {
   color: rgba(255, 255, 255, 0.9);
