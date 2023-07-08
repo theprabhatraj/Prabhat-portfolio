@@ -147,11 +147,16 @@ a {
   height: 50px;
   mix-blend-mode: screen;
 }
+.object{
+  pointer-events: none;
+  user-select: none;
+}
 .introduction {
   padding-left: 25px;
   padding-right: 10px;
   color: #c0ded9;
   font-size: 1.5rem;
+  pointer-events: auto;
 }
 .servive_heading {
   height: 0;
@@ -172,7 +177,7 @@ a {
   display: grid;
   width: 114em;
   grid-gap: 6rem;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   align-items: start;
   margin: 10rem;
 }
